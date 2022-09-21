@@ -2,9 +2,8 @@
 import random
 number = random.randint(-10, 10)
 if number > 0:
-    print("Is positive")
+    print(number, "is positive")
 elif number == 0:
-    print("Is Zero")
+    print(number, "is Zero")
 else:
-    print("is negative")
-print (number)
+    print(number, "is negative")
